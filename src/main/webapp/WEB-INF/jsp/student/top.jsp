@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Jacey
-  Date: 2017/6/30
-  Time: 9:30
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%--shiro标签--%>
 <%@taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
@@ -34,7 +27,7 @@
                             <!-分割线--->
                             <li role="presentation" class="divider"></li>
                             <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="/logout">
+                                <a role="menuitem" tabindex="-1" href="./../logout">
                                     <span class="glyphicon glyphicon-off pull-right"></span>
                                     注销
                                 </a>
